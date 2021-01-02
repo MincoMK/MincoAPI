@@ -7,7 +7,7 @@ import java.io.*;
  * @author Minco
  * ClassNotFoundException Class In Minco API
  */
-public class MincoClassNotFoundException extends MincoException {
+public class MincoClassNotFoundException extends MincoReflectiveOperationException {
         public MincoClassNotFoundException(String m) {
                 super(m);
         }
